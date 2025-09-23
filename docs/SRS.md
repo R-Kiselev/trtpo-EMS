@@ -69,7 +69,24 @@
 
 ## 2.1 Интерфейс пользователя
 Интерфейс приложения выполнен в виде одностраничного веб-приложения (SPA)
-- Мокапы
+
+- Страница авторизации пользователя
+![Авторизация](https://github.com/R-Kiselev/trtpo-EMS/blob/main/mockups/LoginPage.png)
+
+- Страница ввода пароля
+![Ввод пароля](https://github.com/R-Kiselev/trtpo-EMS/blob/main/mockups/LoginPasswordPage.png)
+
+- Страница регистрации пользователя
+![Ввод пароля](https://github.com/R-Kiselev/trtpo-EMS/blob/main/mockups/SignUpPage.png)
+
+- Страница информации о пользователе
+![Информация о пользователе](https://github.com/R-Kiselev/trtpo-EMS/blob/main/mockups/AboutMePage.png)
+
+- Страница информации о сотрудниках и их рабочем времени
+![Страница информации о сотрудниках и их рабочем времени](https://github.com/R-Kiselev/trtpo-EMS/blob/main/mockups/EmployeesPage.png)
+
+- Остальные страницы схожи со страницей с информацией о сотрудниках.
+
 <a name="user_specifications"/>
 
 ## 2.2 Характеристики пользователей
