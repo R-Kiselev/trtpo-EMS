@@ -8,15 +8,15 @@
 ### 1. Аутентификация пользователя<a name="1"></a>
 Диаграмма показывает взаимодействие компонентов системы, когда пользователь пытается войти в систему.
 
-<img src="./Images/Sequence-Diagram1.svg" width="80%" />
+<img src="https://github.com/R-Kiselev/trtpo-EMS/blob/main/diagrams/image/АутентификацияПользователя.jpg" width="80%" />
 
 
 ### 2. Загрузка списка сотрудников<a name="2"></a>
 Эта диаграмма описывает процесс получения списка всех сотрудников администратором.
 
-<img src="./Images/Sequence-Diagram2.svg" width="80%" />
+<img src="https://github.com/R-Kiselev/trtpo-EMS/blob/main/diagrams/image/ЗагрузкаСотрудников.jpg" width="80%" />
 
 ### 3. Создание нового отдела<a name="3"></a>
 Эта диаграмма иллюстрирует последовательность действий при создании нового отдела администратором.
 
-<img src="./Images/Sequence-Diagram3.svg" width="80%" />
+<img src="https://github.com/R-Kiselev/trtpo-EMS/blob/main/diagrams/image/СозданиеОтдела.jpg" width="80%" />

@@ -2,7 +2,7 @@
 
 Этот документ описывает статическую структуру «Системы управления персоналом», показывая основные классы, их атрибуты, методы и отношения между ними.
 
-<img src="https://github.com/R-Kiselev/trtpo-EMS/blob/main/diagrams/image/Class.png" width="80%" />
+<img src="https://github.com/R-Kiselev/trtpo-EMS/blob/main/diagrams/image/Class.jpg" width="80%" />
 
 ## Глоссарий
 

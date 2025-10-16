@@ -1,3 +1,3 @@
 # Диаграмма компонентов и развёртывания
 
-<img src="./Images/Component-Diagram.png" width="60%" />
+<img src="https://github.com/R-Kiselev/trtpo-EMS/blob/main/diagrams/image/ДиаграммаРазвертывания.jpg" width="60%" />
