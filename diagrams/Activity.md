@@ -10,7 +10,7 @@
 
 Эта диаграмма описывает процесс, который выполняет администратор для добавления новой записи о сотруднике в систему.
 
-<img src=".https://github.com/R-Kiselev/trtpo-EMS/blob/main/diagrams/image/ActivityEmployee.png" width="60%" />
+<img src="https://github.com/R-Kiselev/trtpo-EMS/blob/main/diagrams/image/ActivityEmployee.png" width="60%" />
 
 ---
 
