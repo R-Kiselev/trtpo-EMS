@@ -1,0 +1,47 @@
+volumes:
+  postgres-data:
+
+networks:
+  app-network:
+    driver: bridge
+
+services:
+  frontend:
+    container_name: frontend
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+      args:
+        - REACT_APP_API_URL=http://localhost:8081
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+  ems:
+    container_name: ems
+    image: postgres:17
+    restart: unless-stopped
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    env_file:
+      - ../.env
+    ports:
+      - "5433:5432"
+    networks:
+      - app-network
+
+  app:
+    container_name: javadev
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    env_file:
+      - ../.env
+#       -.env
+    ports:
+      - "8081:8081"
+    depends_on:
+      - ems
+    networks:
+      - app-network
